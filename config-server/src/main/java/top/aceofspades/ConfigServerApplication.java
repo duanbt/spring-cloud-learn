@@ -2,12 +2,14 @@ package top.aceofspades;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
+@EnableConfigServer
 @SpringBootApplication
-public class HelloServiceApiApplication {
+public class ConfigServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(HelloServiceApiApplication.class, args);
+        SpringApplication.run(ConfigServerApplication.class, args);
     }
 
 }

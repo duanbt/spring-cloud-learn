@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
  * @author duanbt
  * @since 1.0
  **/
-@FeignClient("hello-service")
+@FeignClient(name = "hello-service", fallback = HelloServiceFallback.class)
 public interface HelloService {
 
     @GetMapping("/hello")

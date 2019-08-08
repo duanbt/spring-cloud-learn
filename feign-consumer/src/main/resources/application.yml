@@ -7,3 +7,13 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:1111/eureka/
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      hello-service:
+        logger-level: FULL
+logging:
+  level:
+    top.aceofspades.web.HelloService: DEBUG
