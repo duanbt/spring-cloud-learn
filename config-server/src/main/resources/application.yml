@@ -5,7 +5,35 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/duanbt/spring-cloud-learn.git
+          uri: git@github.com:duanbt/spring-cloud-learn.git
           search-paths: config-repo
+          private-key: -----BEGIN RSA PRIVATE KEY-----
+            MIIEpAIBAAKCAQEAoIpaWro9jvZezy0KqI04JWMJZCv+r+KbhXET/I8h4HVQMEJd
+            04IGvrhiuMwBQr0ffeMyOUZLAeCTbT04oFyaztwwORbwQMlZoR+q3IkwaDd2O2TL
+            XE+xbGkCej3YrJzl4by/A88+fuR4VW1jmv9+1hoJo2dO9jsFhlcdDzy3zGHM2QJN
+            1/kNlqATrYMAITggEfkeuoYGj08dytEZ5ypog1u9IysbE4NP/b890eU5zSU3z9Vw
+            /Bg+yY8RzudeIWTWaSblA/KaXiRKalglCQNyHLt7nXvaPTjAROSCBqOD3qPBvQZb
+            1WT12x8YCy18Ck3/hRBJNLJ4RuWPDg7dQE8dLwIDAQABAoIBAQCMFq6ppQK6kbpB
+            xugaFMD9vuIfC1T/Xhqf4wCxzqSdHUGQGxmMy1Xfbz6WS05+UlH8pBjbab9iL/n1
+            xQp4xNZB1FowNxgHMKyJsPyD3SLkjiEZyua58sC7/RYwXW+JkI/4358/T8UVLYDj
+            6sSUKIchhS8L68Y3j2FOzQ2Kkk1AhmUg1QjGm/n2t/Hx9HDhvIae99s4DsgkYLia
+            4Ro8n7fG6MYF26G1z1U1mvcvU2vVMALV24tFUtEW5PF52v0OyTx529nP6ga2maAE
+            SqJ8OXmSU7TNAu7Yr5+N380Qt3xNJbOfuROenmugETJdN8VkKlpCH9PkTA97k/nG
+            KcV3qWVBAoGBANFeolcJntsmKgn3tt7MSsBZ0tCtUbIm02v6D02mS9VxL4le1n5U
+            ftICs8QMbG+kC491PzEs6Il+qveF+1RbTyIGuDi/TXHzkfPhfeKq+lQJF3E6SbBz
+            ykEhNjZydqdMkwhSjFUG3sQWdK0f8yA7VZwOmKMrJYlmc/Gd2R4aRbV5AoGBAMRL
+            r0MNAGWH0daZLFNebc+dgzVlRjwT7YkeA102IpRCSIHXsn6fP3XiDCcN0VaBADIG
+            Cu/Iv7I9qtsi404Tn/DtoYbq5te6zmaEE+dWzUShAHTjZy7fsglUfr31huM/ImTX
+            FydFe0eaK+JN5ccQmKu/HrgV+japtUHbs2lfhQXnAoGBAMegOptQYfXEGrssRGGE
+            WhWyz04Go2mAmX9Pir3XvGCDrfaFxW/oco8c4ngf/FgqCpe7DAiAMCvA6ZReXDef
+            ZAEmdQouZNIskdH+A0BXE52CmaZtFAu5K3QUDZO2aam0WlDKHGGJzmcanh7f4rmt
+            uT+1rxWMsxqh5BTRE04fcK3JAoGAdZN75CaqgSYsa2UOJtWd4sjPKbGCs0OgeQwQ
+            KcneRn25XoSrdqq+YUbHzrC5Hh5g1pXGAUB2ijXj3CR2kHKyz6YWpXCYWsmbDc64
+            +U2F4ECrvFflmy8EPhBtZizl4cIUQOCRDsXQhN/0vzW3l1f6io0MwmjvmcRnPI5z
+            VX+QdysCgYBIeSpVjZnSw3oTdofMS7QeogHWN+PHm+kwaWx20Y7JQPsaw7/njdeA
+            RzbfIF+21rC5a5HQFBTaYgQWeABICCyBPQIPQ3PedFzHsW6Rnn/dd9zeVMYFxUdH
+            UUYYzlnQmRjvqjBtQZug31LxFFPOtsBvvHbX0VvT3kQfQjSHbctS5A==
+            -----END RSA PRIVATE KEY-----
+
 server:
   port: 7001

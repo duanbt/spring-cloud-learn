@@ -21,6 +21,10 @@
         <option value="$PROJECT_DIR$/api-gateway-exception/pom.xml" />
         <option value="$PROJECT_DIR$/api-gateway-dynamic-route/pom.xml" />
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/trace-1/pom.xml" />
+        <option value="$PROJECT_DIR$/trace-2/pom.xml" />
       </list>
     </option>
   </component>

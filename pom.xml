@@ -23,5 +23,9 @@
         <module>api-gateway-exception</module>
         <module>api-gateway-dynamic-route</module>
         <module>config-server</module>
+        <module>config-client</module>
+        <module>rabbitmq-hello</module>
+        <module>trace-1</module>
+        <module>trace-2</module>
     </modules>
 </project>

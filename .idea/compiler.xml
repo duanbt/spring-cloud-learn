@@ -6,27 +6,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="api-gateway-exception" />
-        <module name="eureka-server" />
         <module name="config-server" />
-        <module name="ribbon-consumer" />
-        <module name="api-gateway" />
+        <module name="config-client" />
         <module name="hystrix-dashboard" />
-        <module name="eureka-server-ha" />
-        <module name="hello-service" />
-        <module name="hello-service-api" />
-        <module name="api-gateway-dynamic-route" />
-        <module name="feign-consumer" />
         <module name="turbine" />
+        <module name="ribbon-consumer" />
+        <module name="eureka-server-ha" />
         <module name="spring-boot-hello" />
+        <module name="api-gateway-dynamic-route" />
+        <module name="api-gateway-exception" />
+        <module name="hello-service-api" />
+        <module name="eureka-server" />
+        <module name="hello-service" />
+        <module name="trace-2" />
+        <module name="rabbitmq-hello" />
+        <module name="trace-1" />
+        <module name="api-gateway" />
+        <module name="feign-consumer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="stream-hello" target="1.8" />
+      <module name="zipkin-server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
       <module name="api-gateway-dynamic-route" options="-parameters" />
       <module name="api-gateway-exception" options="-parameters" />
+      <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server-ha" options="-parameters" />
@@ -34,9 +43,14 @@
       <module name="hello-service" options="-parameters" />
       <module name="hello-service-api" options="-parameters" />
       <module name="hystrix-dashboard" options="-parameters" />
+      <module name="rabbitmq-hello" options="-parameters" />
       <module name="ribbon-consumer" options="-parameters" />
       <module name="spring-boot-hello" options="-parameters" />
+      <module name="stream-hello" options="-parameters" />
+      <module name="trace-1" options="-parameters" />
+      <module name="trace-2" options="-parameters" />
       <module name="turbine" options="-parameters" />
+      <module name="zipkin-server" options="-parameters" />
     </option>
   </component>
 </project>
