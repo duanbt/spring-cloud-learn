@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: consul-config
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+      config:
+        format: yaml
+        profile-separator: '-'
+  profiles:
+    active: dev
+server:
+  port: 8083

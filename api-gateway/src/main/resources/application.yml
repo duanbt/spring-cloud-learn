@@ -17,6 +17,7 @@ zuul:
       path: /api-b/**
       serviceId: feign-consumer
   ignored-services: feign-consumer
+  retryable: true
 #  ignored-patterns: /**/hello/**
 
 

@@ -25,7 +25,16 @@
         <option value="$PROJECT_DIR$/rabbitmq-hello/pom.xml" />
         <option value="$PROJECT_DIR$/trace-1/pom.xml" />
         <option value="$PROJECT_DIR$/trace-2/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/consul-config/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/bus-event-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/event/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

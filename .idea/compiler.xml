@@ -14,18 +14,24 @@
         <module name="eureka-server-ha" />
         <module name="spring-boot-hello" />
         <module name="api-gateway-dynamic-route" />
+        <module name="consul-config" />
         <module name="api-gateway-exception" />
+        <module name="rabbitmq-hello" />
+        <module name="consul-provider" />
         <module name="hello-service-api" />
         <module name="eureka-server" />
         <module name="hello-service" />
         <module name="trace-2" />
-        <module name="rabbitmq-hello" />
         <module name="trace-1" />
         <module name="api-gateway" />
         <module name="feign-consumer" />
+        <module name="consul-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bus-event-listener" target="1.8" />
+      <module name="bus-event-source" target="1.8" />
+      <module name="event" target="1.5" />
       <module name="stream-hello" target="1.8" />
       <module name="zipkin-server" target="1.8" />
     </bytecodeTargetLevel>
@@ -35,8 +41,13 @@
       <module name="api-gateway" options="-parameters" />
       <module name="api-gateway-dynamic-route" options="-parameters" />
       <module name="api-gateway-exception" options="-parameters" />
+      <module name="bus-event-listener" options="-parameters" />
+      <module name="bus-event-source" options="-parameters" />
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
+      <module name="consul-config" options="-parameters" />
+      <module name="consul-consumer" options="-parameters" />
+      <module name="consul-provider" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eureka-server-ha" options="-parameters" />
       <module name="feign-consumer" options="-parameters" />

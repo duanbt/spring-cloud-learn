@@ -27,5 +27,8 @@
         <module>rabbitmq-hello</module>
         <module>trace-1</module>
         <module>trace-2</module>
+        <module>consul-provider</module>
+        <module>consul-consumer</module>
+        <module>consul-config</module>
     </modules>
 </project>
